@@ -9,7 +9,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			 sh '/home/pranjali/Documents/Devops-software/apache-maven-3.9.6/bin/mvn install'
+			 sh ' /home/pranjali/Documents/Devops-software/apache-maven-3.9.6/bin/mvn install '
 	                 }}
 		stage('Deployment'){
 		    steps {
