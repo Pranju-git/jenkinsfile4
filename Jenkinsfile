@@ -9,7 +9,7 @@ pipeline {
 		      }}
 		stage('Build') {
 	           steps {
-			 sh ' /home/admin/appfiles/apache-maven-3.9.6/bin/mvn install '
+			 sh '/home/admin/appfiles/apache-maven-3.9.6/bin/mvn install'
 	                 }}
 		stage('Deployment'){
 		    steps {
